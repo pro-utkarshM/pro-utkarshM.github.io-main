@@ -1,0 +1,59 @@
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #fff;
+  }
+  
+  #preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #0563bb;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 2s ease-in-out infinite;
+    animation: animate-preloader 2s ease-in-out infinite;
+  }
+  
+  @keyframes animate-preloader {
+    0% {
+      transform: rotate(0deg);
+      border: 6px solid #0563bb;
+      border-top-color: #fff;
+      border-bottom-color: #fff;
+    }
+    50% {
+      transform: rotate(360deg);
+      border-color: #0778e2;
+    }
+    90% {
+      transform: rotate(720deg);
+      border: 6px solid #0563bb;
+      border-top-color: #fff;
+      border-bottom-color: #fff;
+    }
+    100%{
+      transform: rotate(720deg);
+      border: 6px solid #0563bb;
+      border-top-color: #fff;
+      border-bottom-color: #fff;
+    }
+  }
+  
+  /*--------------------------------------------------------------
+  # Disable aos animation delay on mobile devices
+  --------------------------------------------------------------*/
+  @media screen and (max-width: 768px) {
+    [data-aos-delay] {
+      transition-delay: 0 !important;
+    }
+  }
