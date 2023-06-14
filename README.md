@@ -33,7 +33,3 @@ The repository has the following structure:
 ## License
 
 The content of this repository, including the source code and assets, is likely subject to Utkarsh Maurya's chosen license. Please refer to the repository's LICENSE file, if available, for more information.
-
-## Acknowledgements
-
-Thank you for visiting Utkarsh Maurya's personal website repository!
