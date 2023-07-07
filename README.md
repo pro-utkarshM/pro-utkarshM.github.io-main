@@ -16,7 +16,7 @@ To view Utkarsh's personal website, simply navigate to the GitHub Pages URL asso
 
 ## Contributions
 
-Contributions to this repository, particularly for the personal website content, are not typically expected. The website primarily serves as a showcase for Utkarsh's work and personal information.
+Contributions to this repository, particularly for personal website content, are not typically expected. The website primarily serves as a showcase for Utkarsh's work and personal information.
 
 If you have identified any issues with the website or have suggestions for improvements, you can reach out to Utkarsh directly through the provided contact details on the website.
 
@@ -29,7 +29,3 @@ The repository has the following structure:
 - JavaScript files: Additional scripts to enhance interactivity or functionality.
 - Assets folder: Contains images, fonts, or any other media used on the website.
 - Other HTML files: Additional web pages that make up the website.
-
-## License
-
-The content of this repository, including the source code and assets, is likely subject to Utkarsh Maurya's chosen license. Please refer to the repository's LICENSE file, if available, for more information.
